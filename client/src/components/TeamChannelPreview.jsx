@@ -16,11 +16,11 @@ const TeamChannelPreview = ({ setActiveChannel, setIsCreating, setIsEditing, set
 
         console.log(members[0]);
 
-        return () => (
+        return (
             <div className="channel-preview__item single">
                 <Avatar
                     imgage={members[0]?.user?.image}
-                    name={members[0]?.user?.fullName}
+                    name={members[0]?.user?.fullName || members[0]?.user?.id}
                     size={24}
                 />
                 <p>{members[0]?.user?.fullName || members[0]?.user?.id}</p>
