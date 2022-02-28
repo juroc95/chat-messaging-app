@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MessageList, MessageInput, Thread, Window, useChannelActionContext, Avatar, useChannelStateContext, useChatContext } from 'stream-chat-react';
 
-import { ChannelInfo } from '../assets';
+import { ChannelInfo, CloseCreateChannel } from '../assets';
 
 export const GiphyContext = React.createContext({});
 
@@ -57,6 +57,9 @@ const TeamChannelHeader = ({ setIsEditing }) => {
               <div key={i} className='team-channel-header__name-multi'>
                 <Avatar image={user.image} name={user.fullName || user.id} size={32} />
                 <p className='team-channel-header__name user'>{user.fullName || user.id}</p>
+                <span style={{ display: 'flex' }} onClick={() => setIsEditing(true)}>
+                  <ChannelInfo />
+                </span>
               </div>
             ))}
   
