@@ -68,7 +68,7 @@ const EditChannel = ({ setIsEditing }) => {
         <div className="edit-channel__button-wrapper" onClick={updateChannel}>
           <p>Save Changes</p>
         </div>
-        <div className="edit-channel__button-wrapper" onClick={deleteChannel}>
+        <div className="delete-channel__button-wrapper" onClick={deleteChannel}>
           <p>Delete Channel</p>
         </div>
       </div>
@@ -80,7 +80,7 @@ const EditChannel = ({ setIsEditing }) => {
           <p>Delete Channel</p>
           <CloseCreateChannel setIsEditing={setIsEditing} />
         </div>
-        <div className="edit-channel__button-wrapper" onClick={deleteChannel}>
+        <div className="delete-channel__button-wrapper" onClick={deleteChannel}>
           <p>Delete Channel</p>
         </div>
       </div>
