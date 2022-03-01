@@ -39,6 +39,7 @@ const EditChannel = ({ setIsEditing }) => {
 
     if (selectedUsers.length) {
       await channel.addMembers(selectedUsers);
+      await channel.update({ name: channelName }, { text: `${selectedUsers} is/are added` });
     }
 
     setChannelName(null);
@@ -46,9 +47,7 @@ const EditChannel = ({ setIsEditing }) => {
     setSelectedUsers([]);
   }
 
-  const deleteChannel = async (event) => {
-    event.preventDefault();
-
+  const deleteChannel = async () => {
     await channel.delete();
 
     setChannelName(null);
