@@ -8,6 +8,6 @@ JavaScript Mastery - Build and Deploy a Full Stack Realtime Chat Messaging App w
 
 https://www.youtube.com/watch?v=MJzbJQLGehs&t=11867s
 
-## Screenshot
+## User Interface
 
 
