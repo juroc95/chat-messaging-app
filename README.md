@@ -4,6 +4,8 @@ This is a full-stack realtime chat application with authentication implemented w
 
 ## Original Project
 
+JavaScript Mastery - Build and Deploy a Full Stack Realtime Chat Messaging App with Authentication & SMS Notifications
+
 https://www.youtube.com/watch?v=MJzbJQLGehs&t=11867s
 
 ## Usage
