@@ -39,7 +39,7 @@ const EditChannel = ({ setIsEditing }) => {
 
     if (selectedUsers.length) {
       await channel.addMembers(selectedUsers);
-      await channel.update({ name: channelName }, { text: `${selectedUsers} is/are added` });
+      await channel.update({ name: channelName }, { text: `New user(s) is/are added` });
     }
 
     setChannelName(null);
@@ -48,11 +48,11 @@ const EditChannel = ({ setIsEditing }) => {
   }
 
   const deleteChannel = async () => {
-    await channel.delete();
-
     setChannelName(null);
     setIsEditing(false);
     setSelectedUsers([]);
+
+    await channel.delete();
   }
 
   if (channel.type === 'team') {
