@@ -1,6 +1,6 @@
 # Instant Messaging App
 
-Building and deploying a full stack realtime chat application with authentication using React and Stream Chat API. This is a clone project and the original author of this project is JavaScript Mastery. All the steps and approaches are from his YouTube video "Build and Deploy a Full Stack Realtime Chat Messaging App with Authentication & SMS Notifications".
+Built a full stack real-time chat application with authentication using React and Stream Chat API. This project is a clone project, and the original author of this project is JavaScript Mastery. All the steps and approaches are from his YouTube video "Build and Deploy a Full Stack Realtime Chat Messaging App with Authentication & SMS Notifications."
 
 ## Original Project
 
