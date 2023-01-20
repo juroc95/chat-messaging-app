@@ -2,7 +2,7 @@
 
 ## Description
 
-- Developed and implemented a highly functional chat application using JavaScript, Node.js, React, and Stream, following JavaScript Mastery Tutorial on YouTube
+- Developed and built a highly functional chat application using JavaScript, Node.js, React, and Stream, following JavaScript Mastery Tutorial on YouTube
 - This chat application includes advanced features such as direct and group chats, emojis & reactions, built-in gif support, message editing & deletion, and specialized commands
 
 ## User Interface
