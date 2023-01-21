@@ -7,7 +7,7 @@ Developed and built a highly functional chat application using JavaScript, Node.
 ## Sources
 
 - JavaScript Mastery YouTube Tutorial: https://www.youtube.com/watch?v=MJzbJQLGehs&t=94s&ab_channel=JavaScriptMastery
-- Stream: https://getstream.io/?utm_source=javascript_mastery&utm_medium=sponsorship&utm_content=developer&utm_campaign=08_30_2021&utm_term=youtube
+- Stream: https://getstream.io/
 
 ## User Interface
 
