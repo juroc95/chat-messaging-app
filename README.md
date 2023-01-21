@@ -14,7 +14,7 @@ This application has been developed following the JavaScript Mastery Tutorial on
 
 ## How to run
 
-Install the dependencies by running ```npm i```in both the client and server directories.
+Install the dependencies by running ```npm i``` in both the client and server directories.
 
 Start the development server by running ```npm start``` in both the client and server directories.
 
